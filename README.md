@@ -1,4 +1,4 @@
-##Form Validation With PHP Regular Expression
+## Form Validation With PHP Regular Expression
 
 First Connect the Bootstrap Css and Js cdn
 
@@ -11,7 +11,7 @@ First Connect the Bootstrap Css and Js cdn
 
 ```
 
-###Write Down the form html
+### Write Down the form html
 
 ```sh
   <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" class="form" id="form">
@@ -36,13 +36,13 @@ First Connect the Bootstrap Css and Js cdn
   </form> 
 ```
 
-###Declare the variable
+### Declare the variable
 
 ```sh
 $name = $email = $phone = $message = $nameerror = $emailerror = $phoneerror = $messageerror = null;
 ```
 
-###Check all the field is empty or not. if empty then print a message
+### Check all the field is empty or not. if empty then print a message
 
 ```sh
 if ($_SERVER["REQUEST_METHOD"] == 'POST') {
@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == 'POST') {
 ```
 
 
-###Here is the html for showing the Result
+### Here is the html for showing the Result
 
 ```sh
         <h6>Output</h6>
